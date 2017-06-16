@@ -31,4 +31,4 @@ RUN cd /var/tmp/webapp && mvn package -Dmaven.test.skip=true && cp /var/tmp/weba
 
 EXPOSE 8080
 #启动tomcat服务器
-CMD ["./var/tmp/tomcat/apache-tomcat-8.0.33/bin/catalina.sh","run"]
+CMD ["./var/tmp/tomcat/apache-tomcat-8.0.37/bin/catalina.sh","run"]
