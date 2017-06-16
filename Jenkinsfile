@@ -16,7 +16,7 @@ pipeline {
                 '''
             }
         }
-        stage('building docker image') {
+        stage('run docker image') {
             steps {
                 sh 'docker run -d -p 8888:8080 arp-jenkins'
             }
